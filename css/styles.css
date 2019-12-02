@@ -65,6 +65,7 @@ p.lead {
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
+    margin-top: 10px;
 }
 
 .social-icons a:last-child {
@@ -182,4 +183,13 @@ a:hover, a:focus, a:active {
     background-color: #4b4f53;
     border-radius: 15px;
     opacity: .9;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+}
+
+#formSubmitButton {
+    width: 300px;
 }
