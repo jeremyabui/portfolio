@@ -66,6 +66,7 @@ p.lead {
     line-height: 3.5rem;
     margin-right: 1rem;
     margin-top: 10px;
+    margin-left: 15px;
 }
 
 .social-icons a:last-child {
@@ -188,8 +189,25 @@ a:hover, a:focus, a:active {
 .contactform {
     display: flex;
     flex-direction: column;
+    width: 400px;
+    clear: both;
 }
 
 #formSubmitButton {
-    width: 300px;
+    width: 400px;
+}
+
+/* .container {
+    width: 500px;
+    clear: both;
+} */
+  
+.contactform input {
+    width: 100%;
+    clear: both;
+}
+
+.contactform textarea {
+    width: 100%;
+    clear: both;
 }
